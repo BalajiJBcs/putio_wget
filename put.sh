@@ -20,4 +20,4 @@ PUTIO_USERNAME="Enter put.io username"
 PUTIO_PASSWORD="Enter put.io password"
 
 read -p "Enter your url to download" url
-wget --http-user=${PUTIO_USERNAME} --http-password=${PUTIO_PASSWORD} url
+wget --http-user=${PUTIO_USERNAME} --http-password=${PUTIO_PASSWORD} $url
